@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>particle</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Poppins:300,400,700" rel="stylesheet"></head>
+	<link rel="stylesheet" href="js/animate.min.css">
+	
+<body>
+	<section id="particles-js">  
+	
+	<div class="first_container">
+		<h2>
+			Hey! I'm
+			<span>Kev Noriega</span>
+		</h2>
+		<h3 class="description_title">
+			A DESIGNER AND USER EXPERIENCE.	
+		</h3>
+		
+	</div>
+
+	</section>
+	<section  class="second_about">	
+		<img id="traslateLeft1" class="imagen_1 second_about animated fadeInLeft" src="images/dev.jpg">
+		<div class="description_me animated fadeInRight" id="traslateRight1">
+				<h4 class="description_me_title">A short story about<br> me,<br>thinking and craft.
+				</h4>
+				<p class="description_me_text">I am Kevnor. Impossible considered invitation him men instrument saw <br> celebrated unpleasant. Put rest and must set kind next many near nay. He <br> exquisite continued explained middleton am. Impossible considered <br>invitation him men instrument saw celebrated unpleasant. Put rest and must <br> set kind next many near nay. He exquisite continued explained middleton am.<br> Voice hours young woody.</p>
+		</div>
+		
+	</section>
+	<section class="third_offer">
+		<div class="third_offer_container">
+			<div class="third_offer_container_text">
+				<p class="third_offer_container_text_subtitle">Lima</p>
+				<h2 class="third_offer_container_text_h2">
+					Avenida Del Ejercito #452<br>
+					Lima, Perú. <br><br>
+					(01) 977869738
+				</h2>
+			</div>
+			<div style="margin-top: 30px;">
+				<form class="form">
+					<div class="form_container" >
+						<input class="form_input" type="text" placeholder="Your Name" id="form-name">
+						<input class="form_input right" type="text" placeholder="Email address" id="form-email">
+					</div>
+					<textarea class="form_area" type="textarea" placeholder="Your Massage" id="form-message"></textarea>
+					<button class="form_button" id="send">Enviar</button>
+				</form>
+				<a id="loginfacebook">Ingresar al sistema</a>
+    			<div id="user"></div>
+    			<a id="logoutfacebook">Cerrar sesión</a>
+			</div>
+		</div>
+	</section>
+
+
+	<script type="text/javascript" src="scrollmagic/uncompressed/ScrollMagic.js"></script>
+	<script type="text/javascript" src="scrollmagic/uncompressed/plugins/animation.gsap.js"></script>
+	<script type="text/javascript" src="js/particles.js"></script>
+	<script type="text/javascript" src="js/app.js"></script>
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+	<script type="text/javascript" src="js/jquery.js"></script>
+
+	<script src="js/fb.js"></script>
+    <script>
+
+        $(document).ready(function(){
+            $('#loginfacebook').click(function(){
+
+                loginUsingFacebook();
+
+            });
+            $('#logoutfacebook').click(function(){
+
+                logoutFacebook();
+
+            });
+        })
+
+    </script>
+
+	<footer class="footer_section">
+		<div class="footer_container">
+			<ul class="footer_list">
+				<li style="list-style: none;"><a href="#" class="footer_social">facebook</a></li>
+				<li style="list-style: none;"><a class="footer_social" href="#">twitter</a></li>
+				<li style="list-style: none;"><a class="footer_social" href="#">instagram</a></li>
+				<li style="list-style: none;"><a class="footer_social" href="#">behace</a></li>
+				<li style="list-style: none;"><a class="footer_social" href="#">dribbble</a></li>
+			</ul>
+		</div>
+		<div >
+			<p class="footer_copyrigth">Copyright © 2018 Vivid, All rights Reserved. <br>
+Created by BootExpress</p>
+		</div>
+	</footer>
+</body>
+</html>
