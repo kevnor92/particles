@@ -19,13 +19,13 @@ $('#send').click(function(){
 var controller = new ScrollMagic.Controller();
 
 var Scene1Left = new ScrollMagic.Scene({
-	triggerElement: '#traslateLeft1'
+	triggerElement: '#second_about'
 })
 .setClassToggle('#traslateLeft1', 'fadeInLeftActive')
 .addTo(controller);
 
 var Scene1Right = new ScrollMagic.Scene({
-	triggerElement: '#traslateRight1'
+	triggerElement: '#second_about'
 })
 .setClassToggle('#traslateRight1', 'fadeInRightActive')
 .addTo(controller);
