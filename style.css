@@ -177,22 +177,22 @@ font-family: 'Poppins', sans-serif;
   line-height: 2;
 }
  #loginfacebook{
-   color: #000;
+   color: #FFFFFF;
    padding: 10px;
-   background-color: chocolate;
+   background-color:#3b5998;
    cursor: pointer;
    border-radius: 7px;
-   font-family: arial;
-   font-size: 12px;
+   font-family: Poppins;
+   font-size: 20px;
 }
 #logoutfacebook{
-   color: #000;
+   color: #FFFFFF;
    padding: 10px;
-   background-color: chocolate;
+   background-color:#3b5998;
    cursor: pointer;
    border-radius: 7px;
-   font-family: arial;
-   font-size: 12px;
+   font-family: Poppins;
+   font-size: 20px;
    display: none;
 }
 
